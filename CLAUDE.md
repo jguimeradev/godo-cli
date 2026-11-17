@@ -38,7 +38,27 @@ Design question:
 > What is a "task" in our app? What information does one task need to hold, and what actions should a user be able to take on their list? Keep it to the minimum for a first version.
 
 
-**Answer**: A task is an object that holds the next: information: id, name of the task, create date, finish date, status, tags, user, description of the task, priority.
+**Answer**: 
+For a first version a task might hold the next information: 
+1. id
+2. task name
+3. create date
+4. due date
+5. status - done or not done -
+
+
+The actions a user can do is CRUD: 
+1. `godo create <task> <parameters>`
+2. `godo delete <task-id>`
+3. `godo update <task-id> <parameters>`
+4. `godo list <task-id>`
+5. `godo list`
+
+
+
+
+
+
 
 
 
